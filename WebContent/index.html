@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Comet Career Portal</title>
+<link rel="stylesheet" type="text/css" href="./ccpstyle.css">
+</head>
+<body>
+<h1 class="websiteName" align="center">Comet Career Portal</h1>
+<form class="login" name="loginForm" method="post" action="loginServlet">
+<table>
+    <tr>
+    	<td>User name </td> 
+    	<td><input type="text" name="username"/></td>    
+    </tr>
+    <tr>
+    	<td>Password </td>
+    	<td><input type="password" name="password"/></td>
+    </tr>
+    <tr>
+    	<td>Category </td>
+    	<td>	
+    		<select name="Category">
+    			<option value="Student">Student</option>
+    			<option value="Professor">Professor</option>
+    			<option value="Company">Company</option>
+    			<option value="Department">Department</option>
+			</select>
+    	</td>
+    </tr>
+    <tr>
+    	<td><input type="submit" value="Login"/></td>
+        <td><a href="selectCategory.jsp">Register</a></td>
+    </tr>
+</table>
+</form>
+</body>
+</html>

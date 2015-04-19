@@ -1,0 +1,153 @@
+body
+{
+	margin: 1;
+	padding: 0;
+	background-color: #C75B12;
+}
+
+h1
+{
+	color: #FFFFFF;
+	font-family: Arial;
+	text-align:center;
+	min-width: 200px;
+}
+
+h1.websiteName
+{
+	font-style: italic;
+}
+
+h2
+{
+	color: #FFFFFF;
+	font-family: Arial;
+	text-align:center;
+	min-width: 200px;
+}
+
+h2.professorHome,
+h2.studentHome,
+h2.departmentHome
+{
+	color: #FFFFFF;
+	font-family: Arial;
+	text-align:left;
+	min-width: 200px;
+}
+
+h3.projectDetails,
+h3.workExp
+{
+	color: #FFFFFF;
+	font-family: Arial;
+	text-align:center;
+	min-width: 200px;
+}
+
+div.navButtons
+{
+	background-color: #FFB612;
+	outline-style: solid;
+	outline-color: #E98300;
+	width: 100%;
+	min-width: 200px;
+}
+
+form
+{
+	color: #FFFFFF;
+	font-family: Arial;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: #008542;
+	outline-style: solid;
+	outline-color: #69BE28;
+}
+
+form.transparent
+{
+	background-color: transparent;
+	outline-style: none;
+	outline-color: transparent;
+}
+
+form.login, form.selectCategory
+{
+	width: 250px;
+	padding-top: 18px;
+	padding-bottom: 18px;
+}
+
+form.studentReg
+{
+	color: #FFFFFF;
+	width: 530px;
+	padding-top: 5px;
+	padding-bottom: 8px;
+	padding-left: 5px;
+	padding-right: 5px;
+}
+
+form.companyReg
+{
+	color: #FFFFFF;
+	width: 480px;
+	padding-top: 5px;
+	padding-bottom: 8px;
+}
+
+form.postJob
+{
+	color: #FFFFFF;
+	width: 600px;
+	padding-top: 5px;
+	padding-bottom: 8px;
+	padding-right: 10px;
+}
+
+form.professorReg
+{
+	color: #FFFFFF;
+	width: 500px;
+	padding-top: 5px;
+	padding-bottom: 16px;
+}
+
+form.projectDetails
+{
+	color: #FFFFFF;
+	width: 500px;
+	padding-top: 5px;
+	padding-bottom: 16px;
+	padding-right: 5px;
+	padding-left: 5px;
+}
+
+form.workExp
+{
+	color: #FFFFFF;
+	width: 450px;
+	padding-top: 5px;
+	padding-bottom: 16px;
+	padding-right: 7px;
+	padding-left: 5px;
+}
+
+form>table
+{
+	margin-left: auto;
+	margin-right: auto;
+}
+
+a
+{
+	color: #FFB612;
+	font-size: 14px;
+}
+
+/* mouse over link */
+a:hover
+{
+	color: #5BC6E8;
+}

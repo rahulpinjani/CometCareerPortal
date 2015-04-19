@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="lib" path="C:/Users/Rahul/Downloads/New folder (2)/jstl-1.2.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Rahul/Downloads/New folder (2)/mysql-connector-java-5.1.34-bin.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Rahul/Downloads/New folder (2)/servlet-api.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Rahul/Downloads/New folder (2)/taglibs-standard-impl-1.2.5.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>
